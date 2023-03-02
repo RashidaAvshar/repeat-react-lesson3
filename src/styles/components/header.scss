@@ -1,0 +1,23 @@
+header{
+    width: 100%;
+    background-color: darkgreen;
+    nav{
+        .header{
+            display: flex;
+            align-items: center;
+            height: 80px;
+            li{
+                margin-left: 50px;
+                a{
+                color: white;
+                font-size: 28px;
+                transition: 0.5s;
+                    &:hover{
+                        font-size: 20px;
+                        cursor: pointer;    
+                    }
+                }
+            }
+        }
+    }
+}
