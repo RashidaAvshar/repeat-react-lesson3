@@ -4,7 +4,7 @@ import axios from 'axios';
 import { BASE_URL } from '../utilis/constans';
 
 const columns = [
-  { field: 'id', headerName: 'ID', width: 70 },
+  { field: 'id', headerName: 'ID', width: 170 },
   { field: 'name', headerName: 'First name', width: 130 },
   { field: 'surname', headerName: 'Last name', width: 130 },
   { field: 'username', headerName: 'Username', width: 130 },

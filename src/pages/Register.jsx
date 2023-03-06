@@ -49,10 +49,11 @@ const Register = () => {
       noValidate
       autoComplete="off"
     >
-      <TextField id="name" label="name" variant="outlined" onChange={onHandleChange} />
-      <TextField id="surname" label="surname" variant="outlined" onChange={onHandleChange} />
-      <TextField id="username" label="username" variant="outlined" onChange={onHandleChange}  />
-      <TextField id="password" label="password" variant="outlined" type={'password'} onChange={onHandleChange}  />
+
+      <TextField id="name" label="name" variant="outlined" onChange={onHandleChange} name= "name" />
+      <TextField id="surname" label="surname" variant="outlined" onChange={onHandleChange} name= "surname" />
+      <TextField id="username" label="username" variant="outlined" onChange={onHandleChange} name="username" />
+      <TextField id="password" label="password" variant="outlined" type={'password'} onChange={onHandleChange} name="password" />
       
     </Box>
     <Stack spacing={2} direction="row">
