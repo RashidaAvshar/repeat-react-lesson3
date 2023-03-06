@@ -17,8 +17,7 @@ const Home = ()=>{
           key = {item.id}         
           />
         ))
-      };  
-      <Card/>
+      }  
         </div> 
   </div>
   )
