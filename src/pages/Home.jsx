@@ -1,12 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React, {useState, useEffect} from 'react';
 import Card from './Card';
 import { data } from '../mockdata';
+
 
 const Home = ()=>{
 
   return(
   <div className="container">
-      <div className="product-section">
+<div className="product-section">
       {
         data.map((item)=>(
           <Card 
@@ -19,6 +20,8 @@ const Home = ()=>{
         ))
       }  
         </div> 
+
+      
   </div>
   )
 }

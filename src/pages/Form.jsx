@@ -4,13 +4,10 @@ import axios from 'axios';
 import { BASE_URL } from '../utilis/constans';
 
 const columns = [
-  { field: 'id', headerName: 'ID', width: 170 },
   { field: 'name', headerName: 'First name', width: 130 },
   { field: 'surname', headerName: 'Last name', width: 130 },
   { field: 'username', headerName: 'Username', width: 130 },
   { field: 'password', headerName: 'password', width: 130 },
- 
- 
 ];
 
 
@@ -31,6 +28,7 @@ const Form = () => {
         rows={userData}
         columns={columns}
         pageSize={5}
+        getRowId={(row) => row.surname}
         rowsPerPageOptions={[5]}
         checkboxSelection
       />
